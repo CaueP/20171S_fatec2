@@ -80,7 +80,7 @@ public class UC05CadastrarConvenio {
 	 */
 	@Test
 	public void CT03UC05A1CadastrarConvenio_dti_valida() {
-		assertFalse(convenio.validaData("23/05/2016"));
+		assertTrue(convenio.validaData("23/05/2016"));
 	}
 
 	/**
